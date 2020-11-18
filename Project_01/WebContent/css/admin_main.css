@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0;}
+a { text-decoration: none;}
+ul { list-style: none;}
+.wrap { position: fixed; width: 100%;}
+.hd {width: 100%; height: 50px; border-bottom: 1px solid #eee;}
+.hd ul {width: 100%;}
+.hd ul li:first-child {float: left;}
+.hd ul li:last-child {float: right; line-height: 50px; margin-right: 50px;}
+#logo {background-image: url("/img/logo.png"); width: 150px; height: 48px; display: block; display:block; background-repeat: no-repeat;}
+.gnb {width: 100%;}
+.gnb ul {width: 100%;}
+.gnb ul li {float: left; width: 20%; text-align: center; border-bottom: 1px solid #eee; height: 50px; line-height: 50px; font-size: 18px;
+			overflow: hidden;}
+.gnb ul li:hover {height: 300px; transition:1s;}
+.gnb ul li a {width: 100%; color: black; display: block;}
+.gnb ul li a:hover {background-color: #eee;}
+
+.ft {width: 100%; height: 200px; background-color: #fff; border-top: 1px solid #eee;}
+.ft ul {width: 1280px; height: 50px; margin: 0 auto; padding-top: 50px;}
+.ft ul li {float: left; margin-right: 20px; line-height: 50px;}
+.ft ul li a {color: black; font-weight: bold; font-size: 12px;}
+.ft ul li a:hover {text-decoration: underline;}
+.copyright {clear: both; color: black; font-size: 24px; width: 1280px; height: 50px; display: block; margin: 0 auto; font-size: 14px;}
+.boldtxt {font-size: 52px;}

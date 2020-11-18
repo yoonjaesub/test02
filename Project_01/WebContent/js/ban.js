@@ -1,0 +1,29 @@
+            $(document).ready(function(){
+                ani();
+                function ani(){
+                        $(".mob1").animate({opacity:0},3000,function(){
+                            $(".mob2").animate({opacity:1},3000,function(){
+                                $(".mob2").animate({opacity:0},3000,function(){
+                                    $(".mob3").animate({opacity:1},3000,function(){
+                                        $(".mob3").animate({opacity:0},3000,function(){
+                                            $(".mob4").animate({opacity:1},3000,function(){
+                                                $(".mob4").animate({opacity:0},3000,function(){
+                                                    $(".mob5").animate({opacity:1},3000,function(){
+                                                        $(".mob5").animate({opacity:0},3000,ani());
+                                                    });
+                                                });
+                                            });
+                                        });
+                                    });
+                                });
+                            });
+                        });
+                    }
+                $("#close_btn").click(function(){
+                	$(".searchbox").css({"display":"none"});
+                });
+                
+                $(".search").click(function(){
+                	$(".searchbox").css("display","block");
+                });
+               });
